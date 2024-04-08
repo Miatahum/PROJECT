@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="banner">
+
+        <div class="navbar">
+
+        <div class="logo"> TAYLOR WEBSITE </div>  
+
+            <ul>
+
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="news.html">NEWS</a></li>
+    <li><a href="aboutus.html">ABOUT US</a></li>
+    <li><a href="gallery.html">GALLERY</a></li>
+    <li><a href="testimony.html">TESTIMONY</a></li>
+
+    </ul>
+</div>
+</div>
+<div class="row">
+
+    <div class="col1">
+        <img src="img/taylor.jpg" width="100%">
+        <span>Hunter x Hunter</span>
+        <p class="desc1"> Taylor swift's concert will be held in September 2023! 
+    </div>
+
+
+    
+
+
+
+    
+</body>
+</html>
+
+
+<style>
+
+
+*{
+
+margin:0;
+padding:0;
+font-family:sans-serif;
+
+}
+
+.banner{
+width:100%;
+height:100vh;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/taylor1.jpg);
+background-size: cover;
+background-position: center;
+
+}
+
+.navbar{
+width:85%;
+margin:auto;
+padding:35px 0;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo{
+width:120px;
+cursor:pointer;
+color:white;
+font-weight:bold;
+
+}
+.logo:hover{
+color:cyan;
+}
+.navbar ul li{
+list-style: none ;
+display:inline-block;
+margin:0 20px;
+position:relative;
+}
+
+.navbar ul li a{
+text-decoration:none;
+color:white;
+text-transform: uppercase;
+}
+
+.navbar ul li::after{
+content:"";
+height: 3px;
+width:0;
+background:cyan;
+position:absolute;
+left:0;
+bottom: -10px;
+transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+width:100%;
+}
+
+
+
+
+
+
+</style>
